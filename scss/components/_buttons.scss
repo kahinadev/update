@@ -1,0 +1,61 @@
+.btn {
+    font-size: 19px !important;
+    text-transform: $uppercase;
+    padding: $size-twenty 25px;
+    font-family: $font-secondary;
+    background-color: $transparent;
+    @include button;
+    transition: $transition-normal !important;
+
+    i {
+        margin-left: $size-ten;
+    }
+}
+
+.btn-light {
+    border: $light-border;
+    color: $dark-text;
+
+    &:hover,
+    &:focus,
+    &:active {
+        color: $dark-background;
+        background-color: $dark-text !important;
+    }
+}
+
+.btn-bg-accent {
+    border: $none;
+    color: $dark-background;
+    background-color: $dark-accent;
+
+    &:hover,
+    &:focus,
+    &:active {
+        color: $dark-background;
+        background-color: $dark-accent;
+    }
+}
+
+.btn-max {
+    width: $p-max;
+}
+
+.btn-bg-secondary {
+    color: $dark-text;
+    border: $none;
+    background-color: $dark-secondary;
+}
+
+.btn-bg-dark {
+    border: $none;
+    color: $dark-text;
+    background-color: $dark-background;
+
+    &:hover,
+    &:focus,
+    &:active {
+        color: $dark-text;
+        background-color: $dark-background;
+    }
+}

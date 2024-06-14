@@ -1,0 +1,29 @@
+.introduction {
+    .subtitle {
+        margin-top: 15rem;
+
+        @media screen and (max-width: $mobile) {
+            margin-top: $r-five !important;
+        }
+    }
+
+    h2 {
+        font-size: 250px;
+
+        @media screen and (max-width: $mobile) {
+            font-size: 80px !important;
+        }
+
+        @media screen and (max-width: $desktop) {
+            font-size: 160px;
+        }
+    }
+}
+
+.contact {
+    h3 {
+        @media screen and (max-width: $mobile) {
+            font-size: 55px !important;
+        }
+    }
+}
